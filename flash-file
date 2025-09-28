@@ -6,8 +6,7 @@ use Cwd;
 
 my $response;
 my $current_dir = cwd(); # Get current working directory
-$current_dir .= "/../zephyrproject";
-print "PWD: $current_dir\n";
+$current_dir .= "/zephyrproject";
 
 # Start navigation from 'zephyrproject'
 chdir("$current_dir") or die "Failed to enter 'zephyrproject': $!\n";
