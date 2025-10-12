@@ -62,7 +62,7 @@ while (1) {
                 }
                 system('curl https://files.nordicsemi.com/artifactory/swtools/external/nrfutil/executables/x86_64-unknown-linux-gnu/nrfutil -o nrfutil');
 		
-		        print "✅ nrfutil should now be installed!\n";
+		print "✅ nrfutil should now be installed!\n";
                 print "Flashing the application...\n";
                 system("bash -c '
                 source $current_dir/../.venv/bin/activate && cd $current_dir &&
