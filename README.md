@@ -1,4 +1,4 @@
-This repository is a Perl script created to be run on the linux command line. After been cloned follow the following steps to flash an already built project using west or by running before zephyr-build script.
+This repository is a Perl script created to be run on the linux command line. After been cloned follow the upcomming steps to flash an already built zephyr project.
 
 Installation (Ubuntu 20.04.1 LTS):
 
